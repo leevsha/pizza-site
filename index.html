@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nothing+You+Could+Do&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./src/main.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</head>
+
+<body>
+    <a id="button"></a>
+    <div id="mainpage">
+        <header class="bg-dark">
+            <div class=" container h-100 animate__animated animate__zoomIn">
+                <div class="row align-items-center h-100">
+                    <div class="col">
+                        <div id="navbar">
+                            <a href="index.html">
+                                <div id="logo" class="d-flex justify-content-center">
+                                    <img id="pizzalogo" class="" src="./Pizza-Layout/pizza1_orange.png">
+                                    <div class="d-flex flex-column" style="height: 75px;">
+                                        <span id="pizzaspan" class="fs-4 josefin-sans text-white">Pizza</span>
+                                        <span id="delspan"
+                                            class="text-uppercase josefin-sans text-warning">delicous</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <nav class="d-flex justify-content-around">
+                            <a href="index.html" class="text-warning">Home</a>
+                            <a href="menu.html" class="text-secondary non-active">Menu</a>
+                            <a href="#services" class="text-secondary non-active">Services</a>
+                            <a href="blog.html" class="text-secondary non-active">Blog</a>
+                            <a href="about.html" class="text-secondary non-active">About</a>
+                            <a href="contact.html" class="text-secondary non-active">Contact</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <section id="pizzas" style="height: 650px;" class="wow animate__animated animate__fadeInUp">
+                <div id="carouselExampleIndicators" class="carousel slide h-100" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div id="carousel1" class="carousel-inner h-100">
+                        <div class="carousel-item active h-100">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <div id="carouseltxt" class="text-end">
+                                    <div class="nothing text-warning fs-4">Delicious</div>
+                                    <h2 class="text-white text-uppercase josefin-sans py-2">Italian cuizine</h2>
+                                    <div class="text-white popins">A small river named Duden flows by their place and
+                                        supplies <br> it with the necessary regelialia</div>
+                                    <div id="orderbtns" class="py-4 d-flex justify-content-end">
+                                        <a href="" class="bg-warning px-4 py-3 text-dark activecar">Order Now</a>
+                                        <a href=""
+                                            class="px-4 py-3 border border-2 border-white text-white ms-2 non-activecar">View
+                                            Menu
+                                        </a>
+                                    </div>
+                                </div>
+                                <img src="./Pizza-Layout/bg_pizza_1.png" class="d-block w-25 ms-5" alt="...">
+                            </div>
+                        </div>
+                        <div class="carousel-item h-100">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <img src="./Pizza-Layout/bg_pizza_2.png" class="d-block w-25 me-5" alt="...">
+                                <div id="carouseltxt" class="">
+                                    <div class="nothing text-warning fs-4">Crunchy</div>
+                                    <h2 class="text-white text-uppercase josefin-sans py-2">Italian pizza</h2>
+                                    <div class="text-white popins">A small river named Duden flows by their place and
+                                        supplies <br> it with the necessary regelialia</div>
+                                    <div id="orderbtns" class="py-4 d-flex">
+                                        <a href="" class="bg-warning px-4 py-3 text-dark activecar">Order Now</a>
+                                        <a href=""
+                                            class="px-4 py-3 border border-2 border-white text-white ms-2 non-activecar">View
+                                            Menu
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="lastmenu" class="carousel-item h-100">
+                            <div class="d-flex justify-content-center align-items-center h-100">
+                                <div id="carouseltxt" class="text-center">
+                                    <div class="nothing text-warning fs-4">Welcome</div>
+                                    <h2 class="text-white text-uppercase josefin-sans py-2">We cooked your desired <br>
+                                        pizza
+                                        recipe</h2>
+                                    <div class="text-white popins">A small river named Duden flows by their place and
+                                        supplies <br> it with the necessary regelialia</div>
+                                    <div id="orderbtns" class="py-4 d-flex justify-content-center">
+                                        <a href="" class="bg-warning px-4 py-3 text-dark activecar">Order Now</a>
+                                        <a href=""
+                                            class="px-4 py-3 border border-2 border-white text-white ms-2 non-activecar">View
+                                            Menu
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Предыдущий</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Следующий</span>
+                        </button>
+                    </div>
+            </section>
+        </header>
+        <section id="home1" class="wow animate__animated animate__fadeInUp">
+            <div class="d-flex flex-column h-100">
+                <div id="home1imgs" class="d-flex z-index1">
+                    <img src="./Pizza-Layout/gallery-1.jpg" alt="">
+                    <img src="./Pizza-Layout/gallery-2.jpg" alt="">
+                    <img src="./Pizza-Layout/gallery-3.jpg" alt="">
+                    <img src="./Pizza-Layout/gallery-4.jpg" alt="">
+                </div>
+                <div class="d-flex justify-content-around align-items-center h-100 z-index1" id="achievements">
+                    <div class="d-flex flex-column justify-content-center align-items-center ">
+                        <img src="./Pizza-Layout/pizza1_orange.png" class="border border-warning px-4 py-4" alt="">
+                        <div class="text-warning popins fs-3 py-3 mainnums">100</div>
+                        <div class="popins text-secondary">Pizza Branches</div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="./Pizza-Layout/award_orange.png" class="border border-warning px-4 py-4"
+                            style="width: 25%;" alt="">
+                        <div class="popins text-warning fs-3 py-3 mainnums">85</div>
+                        <div class="popins text-secondary">Number of Awards</div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="./Pizza-Layout/laugh_orange.png" class="border border-warning px-4 py-4"
+                            style="width: 35%;" alt="">
+                        <div class="popins text-warning fs-3 py-3 mainnums">10567</div>
+                        <div class="popins text-secondary">Happy Customers</div>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <img src="./Pizza-Layout/chef_orange.png" class="border border-warning px-4 py-4" alt="">
+                        <div class="popins text-warning fs-3 py-3 mainnums">900</div>
+                        <div class="popins text-secondary">Staff</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="home2" class="h-100 wow animate__animated animate__fadeInDown">
+            <div class="d-flex">
+                <div id="leftsidehome2">
+                    <img src="./Pizza-Layout/about.jpg">
+                </div>
+                <div id="rightsidehome2">
+                    <nav>
+                        <div class="d-flex mt-5 ms-5">
+                            <a href=""
+                                class="popins bg-warning py-2 px-3 border border-warning me-2 text-dark activebar">Pizza
+                                </av>
+                                <a href=""
+                                    class="popins py-2 px-3 border border-warning text-warning me-2 non-activebar">Drinks</a>
+                                <a href=""
+                                    class="popins py-2 px-3 border border-warning text-warning me-2 non-activebar">Burgers</a>
+                                <a href=""
+                                    class="popins py-2 px-3 border border-warning text-warning non-activebar">Pasta</a>
+                        </div>
+                    </nav>
+                    <div class="d-flex justify-content-around align-items-center h-75">
+                        <div style="width: 33%;" class="d-flex flex-column align-items-center">
+                            <img src="./Pizza-Layout/pizza-1.jpg" class="rounded-circle" style="width: 50%;" alt="">
+                            <div class="josefin-sans fs-4 text-white pt-3">Italian Pizza</div>
+                            <div class="popins text-secondary text-center py-3">Far far away, behind the word mountains,
+                                far
+                                from the
+                                countries Vokalia and Consonantia.</div>
+                            <div class="popins text-warning pb-3">$2.90</div>
+                            <a href="" class="popins px-2 py-1 text-white border border-white add-to-cart">Add to
+                                cart</a>
+                        </div>
+
+                        <div style="width: 33%;" class="d-flex flex-column align-items-center">
+                            <img src="./Pizza-Layout/pizza-2.jpg" class="rounded-circle" style="width: 50%;" alt="">
+                            <div class="josefin-sans fs-4 text-white pt-3">Italian Pizza</div>
+                            <div class="popins text-secondary text-center py-3">Far far away, behind the word mountains,
+                                far
+                                from the
+                                countries Vokalia and Consonantia.</div>
+                            <div class="popins text-warning pb-3">$2.90</div>
+                            <a href="" class="popins px-2 py-1 text-white border border-white add-to-cart">Add to
+                                cart</a>
+                        </div>
+                        <div style="width: 33%;" class="d-flex flex-column align-items-center">
+                            <img src="./Pizza-Layout/pizza-4.jpg" class="rounded-circle" style="width: 50%;" alt="">
+                            <div class="josefin-sans fs-4 text-white pt-3">Italian Pizza</div>
+                            <div class="popins text-secondary text-center py-3">Far far away, behind the word mountains,
+                                far
+                                from the
+                                countries Vokalia and Consonantia.</div>
+                            <div class="popins text-warning pb-3">$2.90</div>
+                            <a href="" class="popins px-2 py-1 text-white border border-white add-to-cart">Add to
+                                cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" style="height: 700px;" class="wow animate__animated animate__fadeInDown">
+            <div id="upsection" class="d-flex flex-column justify-content-center align-items-center h-25">
+                <h3 class="text-uppercase popins text-dark py-3">our services</h3>
+                <div class="popins text-dark text-center w-50">Far far away, behind the word mountains, far
+                    from the countries Vokalia and Consonantia, there live the blind texts.</div>
+            </div>
+            <div id="downsection" class="h-75 d-flex align-items-center justify-content-around">
+                <div style="width: 20%;" class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./Pizza-Layout/diet.png" alt="" class="border border-dark px-3 py-3" style="width: 35%;">
+                    <div class="text-uppercase josefin-sans py-4 fs-5">healthy foods</div>
+                    <div class="popins text-center">
+                        Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        unorthographic.
+                    </div>
+                </div>
+                <div style="width: 20%;" class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./Pizza-Layout/bicycle.png" alt="" class="border border-dark px-3 py-3"
+                        style="width: 35%;">
+                    <div class="text-uppercase josefin-sans fs-5 py-4">fastest delivery</div>
+                    <div class="popins text-center">
+                        Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        unorthographic.
+                    </div>
+                </div>
+                <div style="width: 20%;" class="d-flex flex-column justify-content-center align-items-center">
+                    <img src="./Pizza-Layout/pizza1.png" alt="" class="border border-dark px-3 py-3"
+                        style="width: 35%;">
+                    <div class="text-uppercase josefin-sans fs-5 py-4">priginal recipes</div>
+                    <div class="popins text-center">
+                        Even the all-powerful Pointing has no control about the blind texts it is an almost
+                        unorthographic.
+                    </div>
+        </section>
+        <footer id="footer">
+            <div id="footercont">
+                <div id="aboutusfoot">
+                    <div id="aboutuscont d-flex flex-column">
+                        <div class="text-uppercase popins text-white">about us</div>
+                        <div class="popins py-5 text-secondary">Far far away, behind the word mountains, far
+                            from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                    </div>
+                    <div id="btns" class="d-flex justify-content-between w-50">
+                        <a href="">
+                            <img src="./Pizza-Layout/twitter.png" class="bg-dark px-2 py-2 rounded-circle"
+                                style="width: 30%;">
+                            <img src="./Pizza-Layout/facebook.png" class="bg-dark px-2 py-2 rounded-circle "
+                                style="width:30%;">
+                            <img src="./Pizza-Layout/instagram.png" class="rounded-circle py-2 px-2 bg-dark"
+                                style="width:30%;">
+                        </a>
+
+                    </div>
+                </div>
+                <div id="recentfoot">
+                    <div id="recentcont">
+                        <div class="text-uppercase popins text-white">recent blog</div>
+                        <div id="messcont" class="d-grid gap-3 mt-5">
+                            <div id="firstmesscont" class="d-flex">
+                                <img src="./Pizza-Layout/image_1.jpg" style="width: 20%; height: 80%;">
+                                <div class="pb-3 ps-3">
+                                    <div class="text-white josefin-sans">Even all-powerful Pointing has <br> no control
+                                        about
+                                    </div>
+                                    <div class="d-flex align-items-center pt-3">
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/calendar.png" style="width: 12%; height: 80%;">
+                                            <div style="font-size: 14px;" class="text-secondary">Sept 15, 2018</div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/person.png" style="width: 20%; height: 80%;"
+                                                alt="">
+                                            <div style="font-size: 14px;" class="text-secondary">Admin</div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/sms.png" alt="" style="width: 13%; height: 80%;">
+                                            <div style="font-size: 14px;" class="text-secondary">19</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="secondmesscont" class="d-flex">
+                                <img src="./Pizza-Layout/image_2.jpg" style="width: 20%; height: 80%;">
+                                <div class="pb-3 ps-3">
+                                    <div class="text-white josefin-sans">Even all-powerful Pointing has <br> no control
+                                        about
+                                    </div>
+                                    <div class="d-flex align-items-center pt-3">
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/calendar.png" style="width: 12%; height: 80%;">
+                                            <div style="font-size: 14px;" class="text-secondary">Sept 15, 2018</div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/person.png" style="width: 20%; height: 80%;"
+                                                alt="">
+                                            <div style="font-size: 14px;" class="text-secondary">Admin</div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/sms.png" alt="" style="width: 13%; height: 80%;">
+                                            <div style="font-size: 14px;" class="text-secondary">19</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="servicesfoot">
+                    <div id="servcont">
+                        <div class="popins text-white text-uppercase">Services</div>
+                        <div class="pt-5 d-grid gap-4">
+                            <div class="text-secondary popins">Cooked</div>
+                            <div class="text-secondary popins">Deliver</div>
+                            <div class="text-secondary popins">Quality Foods</div>
+                            <div class="text-secondary popins">Mixed</div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div id="questionfoot">
+                    <div id="questcont">
+                        <div class="text-white popins text-uppercase">have a questions?</div>
+                        <div id="questtext" class="d-grid gap-3">
+                            <div class="d-flex pt-5">
+                                <img src="./Pizza-Layout/location-pin_white.png" style="width: 15%; height: 20%;">
+                                <div class="popins text-secondary ms-3">203 Fake St. Mountain View, San Francisco,
+                                    California, USA</div>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./Pizza-Layout/phone_white.png" style="width: 10%; height: 80%;">
+                                <div class="popins text-secondary ms-3">+2 392 3929 210</div>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./Pizza-Layout/envelope_white.png" style="width: 10%; height: 80%">
+                                <div class="popins text-secondary ms-3">info@yourdomain.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="copyright" class="text-secondary popins">Copyright ©2021 All right reserved | This template is
+                    made with &#9829; by Nikita</div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

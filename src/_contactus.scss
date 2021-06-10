@@ -1,0 +1,27 @@
+#contactus{
+    height: 500px;
+}
+#contactuscont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#form{
+    width: 100%;
+    background-color: black;
+}
+.contactform{
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid darken(grey, 30%);
+}
+.contactform:focus{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    border-bottom: 2px solid darken(grey, 30%);
+    color: white;
+}
+#formcont{
+    width: 80%;
+    margin: auto;
+}

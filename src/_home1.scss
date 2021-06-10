@@ -1,0 +1,29 @@
+#home1{
+    height: 600px;
+    background-image: url(../Pizza-Layout/bg_2.jpg);
+    background-size: cover;
+    &::before {
+        content: "";
+        background-color:black;
+        position: absolute;
+        height: 83%;
+        width: 100%;
+        opacity: 0.8;
+    }
+}
+#home1imgs img{
+    width: 25.5%;
+    &:nth-child(2){
+        width: 23.8%;
+    }
+    &:nth-child(1){
+        width: 24.5%;
+
+    }
+}
+#achievements{
+    img{
+        width: 20%;
+    }
+}
+

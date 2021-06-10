@@ -1,0 +1,30 @@
+#footer {
+    height: 500px;
+    background-color: black;
+}
+#footercont {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    height: 100%;
+    grid-template-columns: 2fr 3fr 1fr 1fr;
+    column-gap: 10px;
+}
+#aboutusfoot {
+    height: 70%;
+}
+#recentfoot {
+    height: 70%;
+
+}
+#servicesfoot {
+    height: 70%;
+
+}
+#questionfoot {
+    height: 70%;
+}
+#copyright{
+    grid-column: 2/5;
+}

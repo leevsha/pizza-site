@@ -1,0 +1,423 @@
+.josefin-sans {
+  font-family: "Josefin Sans";
+}
+
+.nothing {
+  font-family: "Nothing You Could Do";
+}
+
+.popins {
+  font-family: "Poppins";
+}
+
+.z-index1 {
+  z-index: 1;
+}
+
+#button {
+  display: inline-block;
+  background-color: #ff9800;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  -webkit-transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+
+#button:active {
+  background-color: #555;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+#pizzalogo {
+  width: 5%;
+  height: 5%;
+}
+
+#delspan {
+  letter-spacing: 2px;
+  margin-left: -25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#pizzas {
+  background-image: url(../Pizza-Layout/bg_1.jpg);
+}
+
+#lastmenu {
+  background-image: url(../Pizza-Layout/bg_3.jpg);
+  background-size: cover;
+}
+
+#lastmenu::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0.65;
+}
+
+#carouseltxt {
+  z-index: 1;
+}
+
+#carouselExampleIndicators::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  opacity: 0.65;
+}
+
+#home1 {
+  height: 600px;
+  background-image: url(../Pizza-Layout/bg_2.jpg);
+  background-size: cover;
+}
+
+#home1::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  height: 83%;
+  width: 100%;
+  opacity: 0.8;
+}
+
+#home1imgs img {
+  width: 25.5%;
+}
+
+#home1imgs img:nth-child(2) {
+  width: 23.8%;
+}
+
+#home1imgs img:nth-child(1) {
+  width: 24.5%;
+}
+
+#achievements img {
+  width: 20%;
+}
+
+#home2 {
+  height: 500px;
+  background-image: url(../Pizza-Layout/bg_4.jpg);
+}
+
+#leftsidehome2 {
+  overflow: hidden;
+  width: 40%;
+}
+
+#leftsidehome2 img {
+  height: 90%;
+}
+
+#rightsidehome2 {
+  width: 60%;
+}
+
+#services {
+  background-image: url(../Pizza-Layout/food.png);
+}
+
+#footer {
+  height: 500px;
+  background-color: black;
+}
+
+#footercont {
+  display: -ms-grid;
+  display: grid;
+  width: 80%;
+  margin: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  -ms-grid-columns: 2fr 3fr 1fr 1fr;
+      grid-template-columns: 2fr 3fr 1fr 1fr;
+  -webkit-column-gap: 10px;
+          column-gap: 10px;
+}
+
+#aboutusfoot {
+  height: 70%;
+}
+
+#recentfoot {
+  height: 70%;
+}
+
+#servicesfoot {
+  height: 70%;
+}
+
+#questionfoot {
+  height: 70%;
+}
+
+#copyright {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 3;
+  grid-column: 2/5;
+}
+
+#leftsideabout {
+  background-color: black;
+  width: 65%;
+}
+
+#rightsideabout {
+  background-color: #fac664;
+  width: 35%;
+}
+
+#generalinfo {
+  height: 33%;
+}
+
+.leftsidediv {
+  width: 25%;
+  height: 60%;
+}
+
+#fullinfo {
+  height: 67%;
+  background-image: url(../Pizza-Layout/bg_4.jpg);
+}
+
+#videoabout {
+  width: 45%;
+}
+
+#textabout {
+  width: 60%;
+}
+
+#hotpizza {
+  height: 800px;
+  background-image: url(../Pizza-Layout/bg_4.jpg);
+}
+
+#hotpizzatxt {
+  height: 33%;
+}
+
+#pizzamenu {
+  height: 67%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+}
+
+.pizzascont {
+  background-color: black;
+}
+
+.pizzasdown {
+  margin-top: -55px;
+}
+
+#menuprice {
+  background-image: url(../Pizza-Layout/bg_4.jpg);
+  height: 700px;
+}
+
+#priceup {
+  height: 33%;
+}
+
+#pricedown {
+  height: 67%;
+}
+
+p.flip {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+p.flip:before {
+  position: absolute;
+  bottom: 4px;
+  left: 100px;
+  right: 0;
+  content: "";
+  width: 40px;
+  height: 1px;
+  background: #8d5d05;
+  margin: 0 auto;
+}
+
+p.flip span.deg1 {
+  position: absolute;
+  bottom: 2px;
+  left: -30px;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  content: "";
+  background: #fac564;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin: 0 auto;
+}
+
+p.flip span.deg2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+  content: "";
+  background: #fac564;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin: 0 auto;
+}
+
+p.flip span.deg3 {
+  position: absolute;
+  bottom: 2px;
+  left: 30px;
+  right: 0;
+  width: 6px;
+  height: 6px;
+  content: "";
+  background: #fac564;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  margin: 0 auto;
+}
+
+p.flip:after {
+  position: absolute;
+  bottom: 4px;
+  left: -100px;
+  right: 0;
+  content: "";
+  width: 40px;
+  height: 1px;
+  background: #8d5d05;
+  margin: 0 auto;
+}
+
+#pricedowncont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[4];
+      grid-template-rows: repeat(4, 1fr);
+  grid-auto-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  direction: ltr;
+  width: 85%;
+  margin: auto;
+  -webkit-column-gap: 15px;
+          column-gap: 15px;
+}
+
+.afterpizza {
+  border-bottom: 1px dashed orange;
+}
+
+#contactus {
+  height: 500px;
+}
+
+#contactuscont {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+#form {
+  width: 100%;
+  background-color: black;
+}
+
+.contactform {
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid #343434;
+}
+
+.contactform:focus {
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-bottom: 2px solid #343434;
+  color: white;
+}
+
+#formcont {
+  width: 80%;
+  margin: auto;
+}
+
+#recentblog {
+  height: 750px;
+  background-image: url(../Pizza-Layout/bg_4.jpg);
+}
+
+#blogup {
+  height: 33%;
+}
+
+#blogdown {
+  width: 80%;
+  margin: auto;
+  height: 67%;
+}
+
+.blogtxt {
+  width: 33%;
+}
+/*# sourceMappingURL=main.css.map */

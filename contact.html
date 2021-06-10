@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nothing+You+Could+Do&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./src/main.css">
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="./src/main.css">
+</head>
+
+<body>
+    <a id="button"></a>
+    <div id="mainpage">
+        <header class="bg-dark">
+            <div class=" container h-100">
+                <div class="row align-items-center h-100 wow animate__animated animate__zoomIn">
+                    <div class="col">
+                        <div id="navbar" class="">
+                            <a href="index.html">
+                                <div id="logo" class="d-flex justify-content-center">
+                                    <img id="pizzalogo" class="" src="./Pizza-Layout/pizza1_orange.png">
+                                    <div class="d-flex flex-column" style="height: 75px;">
+                                        <span id="pizzaspan" class="fs-4 josefin-sans text-white">Pizza</span>
+                                        <span id="delspan"
+                                            class="text-uppercase josefin-sans text-warning">delicous</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <nav class="d-flex justify-content-around">
+                            <a href="index.html" class="text-secondary non-active">Home</a>
+                            <a href="menu.html" class="text-secondary non-active">Menu</a>
+                            <a href="index.html#services" class="text-secondary non-active">Services</a>
+                            <a href="blog.html" class="text-secondary non-active">Blog</a>
+                            <a href="about.html" class="text-secondary non-active">About</a>
+                            <a href="contact.html" class="text-warning">Contact</a>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section id="contactus">
+            <div id="contactuscont" class="h-100">
+                <div id="map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41683.24042486708!2d28.43460788269824!3d49.23464931135593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x472d5b65195a6489%3A0xcbd4e159eedd74fe!2z0JLQuNC90L3QuNGG0LAsINCS0LjQvdC90LjRhtC60LDRjyDQvtCx0LvQsNGB0YLRjCwgMjEwMDA!5e0!3m2!1sru!2sua!4v1622983535200!5m2!1sru!2sua"
+                        style="border:0;" allowfullscreen="" loading="lazy" class="h-100 w-100"></iframe>
+                </div>
+                <div id="form" class="wow animate__animated animate__fadeInUp">
+                    <div id="formcont" class="d-flex flex-column justify-content-center h-100">
+                        <h3 class="text-white josefin-sans">Contact Us</h3>
+                        <form class="pt-5">
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput" class="form-label text-white popins">First
+                                    Name</label>
+                                <input type="text" class="form-control contactform" id="formGroupExampleInput">
+                            </div>
+                            <div class="mb-3">
+                                <label for="formGroupExampleInput2" class="form-label text-white popins">Last
+                                    Name</label>
+                                <input type="text" class="form-control contactform" id="formGroupExampleInput2">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1"
+                                    class="form-label text-white popins">Messege</label>
+                                <textarea class="form-control contactform" id="exampleFormControlTextarea1"
+                                    rows="3"></textarea>
+                            </div>
+                            <a href="">
+                                <div class="popins bg-warning py-3 text-center text-dark" style="width: 20%;">Send</div>
+                            </a>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div id="footercont">
+                <div id="aboutusfoot">
+                    <div id="aboutuscont d-flex flex-column">
+                        <div class="text-uppercase popins text-white">about us</div>
+                        <div class="popins py-5 text-secondary">Far far away, behind the word mountains, far
+                            from the countries Vokalia and Consonantia, there live the blind texts.</div>
+                    </div>
+                    <div id="btns" class="d-flex justify-content-between w-50">
+                        <a href="">
+                            <img src="./Pizza-Layout/twitter.png" class="bg-dark px-2 py-2 rounded-circle"
+                                style="width: 30%;">
+                            <img src="./Pizza-Layout/facebook.png" class="bg-dark px-2 py-2 rounded-circle "
+                                style="width:30%;">
+                            <img src="./Pizza-Layout/instagram.png" class="rounded-circle py-2 px-2 bg-dark"
+                                style="width:30%;">
+                        </a>
+
+                    </div>
+                </div>
+                <div id="recentfoot">
+                    <div id="recentcont">
+                        <div class="text-uppercase popins text-white">recent blog</div>
+                        <div id="messcont" class="d-grid gap-3 mt-5">
+                            <div id="firstmesscont" class="d-flex">
+                                <img src="./Pizza-Layout/image_1.jpg" style="width: 20%; height: 80%;">
+                                <div class="pb-3 ps-3">
+                                    <div class="text-white josefin-sans">Even all-powerful Pointing has <br> no control
+                                        about
+                                    </div>
+                                    <div class="d-flex align-items-center pt-3">
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/calendar.png" style="width: 12%; height: 80%;">
+                                            <div style="font-size: 14px;" class="text-secondary">Sept 15, 2018</div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/person.png" style="width: 20%; height: 80%;"
+                                                alt="">
+                                            <div style="font-size: 14px;" class="text-secondary">Admin</div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/sms.png" alt="" style="width: 13%; height: 80%;">
+                                            <div style="font-size: 14px;" class="text-secondary">19</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="secondmesscont" class="d-flex">
+                                <img src="./Pizza-Layout/image_2.jpg" style="width: 20%; height: 80%;">
+                                <div class="pb-3 ps-3">
+                                    <div class="text-white josefin-sans">Even all-powerful Pointing has <br> no control
+                                        about
+                                    </div>
+                                    <div class="d-flex align-items-center pt-3">
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/calendar.png" style="width: 12%; height: 80%;">
+                                            <div style="font-size: 14px;" class="text-secondary">Sept 15, 2018</div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/person.png" style="width: 20%; height: 80%;"
+                                                alt="">
+                                            <div style="font-size: 14px;" class="text-secondary">Admin</div>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <img src="./Pizza-Layout/sms.png" alt="" style="width: 13%; height: 80%;">
+                                            <div style="font-size: 14px;" class="text-secondary">19</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div id="servicesfoot">
+                    <div id="servcont">
+                        <div class="popins text-white text-uppercase">Services</div>
+                        <div class="pt-5 d-grid gap-4">
+                            <div class="text-secondary popins">Cooked</div>
+                            <div class="text-secondary popins">Deliver</div>
+                            <div class="text-secondary popins">Quality Foods</div>
+                            <div class="text-secondary popins">Mixed</div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div id="questionfoot">
+                    <div id="questcont">
+                        <div class="text-white popins text-uppercase">have a questions?</div>
+                        <div id="questtext" class="d-grid gap-3">
+                            <div class="d-flex pt-5">
+                                <img src="./Pizza-Layout/location-pin_white.png" style="width: 15%; height: 20%;">
+                                <div class="popins text-secondary ms-3">203 Fake St. Mountain View, San Francisco,
+                                    California, USA</div>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./Pizza-Layout/phone_white.png" style="width: 10%; height: 80%;">
+                                <div class="popins text-secondary ms-3">+2 392 3929 210</div>
+                            </div>
+                            <div class="d-flex">
+                                <img src="./Pizza-Layout/envelope_white.png" style="width: 10%; height: 80%">
+                                <div class="popins text-secondary ms-3">info@yourdomain.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="copyright" class="text-secondary popins">Copyright ©2021 All right reserved | This template is
+                    made with &#9829; by Nikita</div>
+            </div>
+
+        </footer>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+
+    <script src="./script.js"></script>
+
+</body>
+
+</html>

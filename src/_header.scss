@@ -1,0 +1,41 @@
+#pizzalogo {
+    width: 5%;
+    height: 5%;
+}
+#delspan {
+    letter-spacing: 2px;
+    margin-left: -25px;
+}
+a {
+    text-decoration: none;
+}
+#pizzas {
+    background-image: url(../Pizza-Layout/bg_1.jpg);
+}
+#lastmenu {
+    background-image: url(../Pizza-Layout/bg_3.jpg);
+    background-size: cover;
+    &::before {
+        content: "";
+        background-color:black;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        opacity: 0.65;
+    }
+}
+#carouseltxt{
+    z-index: 1;
+}
+#carouselExampleIndicators::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0.65;
+}
